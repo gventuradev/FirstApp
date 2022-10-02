@@ -8,12 +8,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            What is your name?
-            <asp:TextBox ID="nameInput" runat="server"></asp:TextBox>
+        <div>How old are you?  <asp:TextBox ID="ageInput" runat="server"></asp:TextBox>
             <br />
             <br />
-            What is your age?&nbsp;&nbsp; <asp:TextBox ID="ageInput" runat="server"></asp:TextBox>
+            How much money do you have in your pocket?  <asp:TextBox ID="moneyInput" runat="server"></asp:TextBox>
             <br />
             <br />
             <asp:Button ID="submitButton" runat="server" OnClick="submitButton_Click" Text="Submit" />
